@@ -9,10 +9,10 @@ Several customers have already received their Step Trainers, installed the mobil
 The STEDI team wants to use the motion sensor data to train a machine learning model to detect steps accurately in real-time. Privacy will be a primary consideration in deciding what data can be used.
 Some of the early adopters have agreed to share their data for research purposes. Only these customers’ Step Trainer and accelerometer data should be used in the training data for the machine learning model.
 
-# Project Discription
+# Project Description
 In this project i extracted data produced by the STEDI step-trainer sensors and the mobile app, and curated them into a data lakehouse solution on AWS. The intent is for Data Scientists to use the solution to train machine learning models. The Data lake solution is developed using AWS Glue, AWS S3, Python, and Spark for sensor data that trains machine learning algorithms. AWS infrastructure is used to create storage zones (landing, trusted, curated).
 
 # the solution provided by me in this repository is according to the project rubrics mentioned in the Udacity platform, i have attached the screenshots of the Athena queries , and the SQL DDL Scripts , and the glue jobs (.py file) done by me. 
 
-# NOTE - the "sample.txt" file is generated inorder to create the respective folders in the repository, thus it contains no data.
+
 
